@@ -34,7 +34,7 @@ function showPosition(position) {
 }
 
 function getTemp(la, lo) {
-  const URI = `http://api.openweathermap.org/data/2.5/onecall?lat=${la}&lon=${lo}&units=metric&&appid=${key}`;
+  const URI = `https://api.openweathermap.org/data/2.5/onecall?lat=${la}&lon=${lo}&units=metric&&appid=${key}`;
 
   fetch(URI)
     .then((res) => {
