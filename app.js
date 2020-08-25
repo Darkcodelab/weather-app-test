@@ -67,12 +67,3 @@ function cloudPercent(data) {
   return data > 50 ? "cloudy" : "clear";
 }
 
-// function bgImage() {
-//   let date = new Date();
-//   if (date.getHours() > 16) {
-//     document.getElementById("bg-image").src = "/assets/night.jpg";
-//     document.getElementById("bg-image").style.opacity = 1;
-//     document.body.style.color = "white";
-//   }
-// }
-// bgImage();
